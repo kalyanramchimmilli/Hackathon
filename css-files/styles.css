@@ -1,0 +1,311 @@
+body {
+    background-color: lightcyan;
+
+}
+
+label {
+    display: inline-block;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #444444;
+}
+
+.navbar {
+
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.nav-item {
+    padding: 0 1px;
+}
+
+.nav-link {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(217, 68, 8);
+    font-weight: 575;
+}
+
+.navbar-brand:hover {
+    color: blue;
+}
+
+.container-fluid {
+    padding-left: 24%;
+    padding-right: 24%;
+    padding-bottom: 5%;
+    padding-top: 20px;
+}
+
+/* dropdown */
+.dropbtn {
+
+    color: rgb(217, 68, 8);
+
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8x 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+.dropdown-menu a {
+    color: rgb(217, 68, 8);
+    font-size: large;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* images */
+.img1 {
+
+    width: 100%;
+    height: 40rem;
+    padding-bottom: 30px;
+}
+
+/* about div */
+#about {
+    background-color: #feedcc;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+h2 {
+    color: rgb(217, 68, 8);
+    padding-bottom: 5%;
+    text-align: center;
+
+}
+
+.p1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 8px;
+    text-align: center;
+
+}
+
+.p2 {
+    font-family: 'Noto Sans', sans-serif;
+    color: blue;
+    font-size: 1.2rem;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.img2 {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* features */
+#feauters {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.details {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Featuers {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+tr,
+td {
+    border: 0.5px solid black;
+
+}
+
+.bluebox {
+    background-color: rgb(49, 237, 237);
+    height: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    color: #404040;
+    font-weight: bolder;
+}
+
+.img3 {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 95%;
+    background-color: rgb(230, 246, 252);
+    height: 100x;
+}
+
+.r1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.r2 {
+    text-align: left;
+    padding-left: 4%;
+    font-weight: 400;
+    font-style: 'opne sans', sans-serif;
+}
+
+/* survey form */
+.form {
+
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.radio {
+    margin-bottom: 3%;
+
+}
+
+.radion {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-left: 2%;
+}
+
+.box {
+    width: 80%;
+    height: 50px;
+}
+
+/* button */
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+/* bottom */
+#bottom {
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('https://yalantis.com/uploads/ckeditor/pictures/2916/dribble_perfect.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.waves {
+
+    margin: auto;
+    text-align: center;
+    color: #f4914c;
+
+}
+
+.p3 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 3.5rem;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.COPYRIGHT {
+    color: grey;
+    font-size: 1rem;
+    padding: 20px 0;
+    margin-right: auto;
+    color: #08b1b7;
+}
+
+.footer-link {
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+
+}
+.form1{
+    font-family: 'Oswald', sans-serif;
+   
+    font-size: large;
+    font-weight: bolder;
+}
+.form2{
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}
+.form3{
+    width: 100%;
+    height: 3rem;
+}
+.end{
+    font-size: large;
+    font-weight: bold;
+}
+.feathead{
+    font-weight: bold;
+}
